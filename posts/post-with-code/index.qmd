@@ -15,3 +15,27 @@ import numpy as np
 a = np.arange(10)
 a
 ```
+
+```{python}
+from palmerpenguins import load_penguins
+penguins = load_penguins()
+
+penguins.info()
+
+# 1
+penguins.isna()
+penguins["bill_length_mm"].loc[penguins["bill_length_mm"].isna()].iloc[0] = 0
+penguins["bill_depth_mm"].loc[penguins["bill_depth_mm"].isna()].iloc[0] = 0
+penguins["flipper_length_mm"].loc[penguins["flipper_length_mm"].isna()].iloc[0] = 0
+penguins["body_mass_g"].loc[penguins["body_mass_g"].isna()].iloc[0] = 0
+penguins["sex"].loc[penguins["sex"].isna()].iloc[0] = "X"
+
+# 2, 3
+penguins.describe()
+ad = penguins.loc[penguins["species"] == "Adelie"]
+gt = penguins.loc[penguins["species"] == "Gentoo"]
+cs = penguins.loc[penguins["species"] == "Chinstrap"]
+ad.describe()
+gt.describe()
+cs.describe()
+```
