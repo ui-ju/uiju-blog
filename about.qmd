@@ -6,7 +6,7 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/ui-ju/uiju-blog
+      href: https://ui-ju.github.io/uiju-blog/
 ---
 
 데이터 분석 기록 ::smile::
