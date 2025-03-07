@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "uiju-blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "나의 첫 블로그 포스트\n\n\n\n\n\n\npython\n\n\npandas\n\n\nnumpy\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nUi Ju Jeong\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -26,5 +26,19 @@
     "title": "About",
     "section": "",
     "text": "데이터 분석 기록 ::smile::"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html",
+    "href": "posts/my-first-post/index.html",
+    "title": "나의 첫 블로그 포스트",
+    "section": "",
+    "text": "넘파이 패키지를 불러옵시다!\n\nimport numpy as np\n\na = np.array([3, 2, 15])\na\n\narray([ 3,  2, 15])\n\n\n\n\n\n\nimport pandas as pd"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#파이썬-데이터-분석",
+    "href": "posts/my-first-post/index.html#파이썬-데이터-분석",
+    "title": "나의 첫 블로그 포스트",
+    "section": "",
+    "text": "넘파이 패키지를 불러옵시다!\n\nimport numpy as np\n\na = np.array([3, 2, 15])\na\n\narray([ 3,  2, 15])\n\n\n\n\n\n\nimport pandas as pd"
   }
 ]
